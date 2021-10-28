@@ -1,0 +1,38 @@
+digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
+1 [class="", fontsize=12, label=utter_greet];
+"-6" [class=ellipsis, label="..."];
+5 [class=active, fontsize=12, label=utter_htl];
+6 [class=active, fontsize=12, label=utter_branches];
+7 [class=active, fontsize=12, label=utter_branch];
+11 [class=active, fontsize=12, label=action_unlikely_intent];
+12 [class=active, fontsize=12, label=utter_branch];
+15 [class="intent dashed active", label="  ?  ", shape=rect];
+16 [class=intent, fillcolor=lightblue, label=None, shape=rect, style=filled];
+17 [class=intent, fillcolor=lightblue, label=None, shape=rect, style=filled];
+18 [class="intent active", fillcolor=lightblue, label=HTL, shape=rect, style=filled];
+19 [class="intent active", fillcolor=lightblue, label=Zweige, shape=rect, style=filled];
+20 [class="intent active", fillcolor=lightblue, label=Medientechnik, shape=rect, style=filled];
+21 [class="intent active", fillcolor=lightblue, label=Informatik, shape=rect, style=filled];
+22 [class="intent active", fillcolor=lightblue, label=Elektronik, shape=rect, style=filled];
+0 -> "-1"  [class="", key=NONE, label=""];
+0 -> 16  [class="", key=0];
+0 -> 17  [class="", key=0];
+0 -> 18  [class=active, key=0];
+1 -> "-6"  [class="", key=NONE, label=""];
+5 -> 19  [class=active, key=0];
+6 -> 20  [class=active, key=0];
+7 -> "-1"  [class="", key=NONE, label=""];
+7 -> 21  [class=active, key=0];
+11 -> 12  [class=active, key=NONE, label=""];
+12 -> 15  [class=active, key=NONE, label=""];
+12 -> 22  [class=active, key=0];
+16 -> 1  [class="", key=0];
+17 -> 1  [class="", key=0];
+18 -> 5  [class=active, key=0];
+19 -> 6  [class=active, key=0];
+20 -> 7  [class=active, key=0];
+21 -> 11  [class=active, key=0];
+22 -> 11  [class=active, key=0];
+}
