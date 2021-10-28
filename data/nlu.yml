@@ -231,6 +231,7 @@ nlu:
     - htl
     - htl yo
     - Htl infos
+    - Erzähl mir etwas über die HTL Leonding
 - intent: branches
   examples: |
     - Welche Zweige gibt es?
@@ -326,7 +327,6 @@ nlu:
     - Kannst du mir sagen wie viele [Chemie](subject) Stunden man pro Woche in der [1. Klasse](grade) [Elektronik](branch) hat?
     - Kannst du mir sagen wie viele [Geschichte](subject) Stunden man pro Woche in der [2. Klasse](grade) [Medizintechnik](branch) hat?
     - Kannst du mir sagen wie viele [Computerpraktikum](subject) Stunden man pro Woche in der [5. Klasse](grade) [Informatik](branch) hat?
-
 - intent: ask_leonie
   examples: |
     - Kennst du Leonie?
