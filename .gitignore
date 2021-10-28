@@ -5,3 +5,7 @@ results/
 /*.db
 /events.db-shm
 /events.db-wal
+.idea
+.config
+.cache
+.keras
