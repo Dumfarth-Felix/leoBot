@@ -18,9 +18,10 @@ jobs:
       uses: RasaHQ/action-server-gha@main
       # Full list of parameters: https://github.com/RasaHQ/action-server-gha/tree/master#input-arguments
       with:
-        docker_image_name: 'account_username/repository_name'
-        docker_registry_login: ${{ secrets.DOCKER_HUB_LOGIN }}
-        docker_registry_password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+        docker_registry: registry.cloud.htl-leonding.ac.at
+        docker_image_name: 'f.dumfarth/leoBot'
+        docker_registry_login: ${{ secrets.LOGIN }}
+        docker_registry_password: ${{ secrets.PASSWORD }}
         # More details about github context:
         # https://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions#github-context
         #
