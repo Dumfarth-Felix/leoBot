@@ -24,6 +24,7 @@ intents:
 - thanks
 - how_are_you
 - show_school_picture
+- insult_bot
 entities:
 - name
 - branch
@@ -100,10 +101,12 @@ responses:
   utter_no_problem:
     - text: Kein Problem, dafür bin ich doch da!
   utter_i_am_doing_well:
-    - text: I'm doing very well, thanks for asking!
+    - text: 'Mir geht es sehr gut, danke der Nachfrage :)'
   utter_school_photo:
     - image: https://www.htl-leonding.at/wp-content/uploads/2019/11/banner_full_ueberuns.jpg?x49412
       text: 'So sieht unsere Schule aus:'
+  utter_not_very_kind:
+    - text: Das ist aber nicht sehr nett, ich gebe immerhin mein Bestes!
 
 actions:
 - action_hours_per_branch

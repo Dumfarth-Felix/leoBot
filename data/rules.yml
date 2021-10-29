@@ -26,7 +26,13 @@ rules:
   steps:
     - intent: thanks
     - action: utter_no_problem
+
 - rule: show school picture
   steps:
     - intent: show_school_picture
     - action: utter_school_photo
+
+- rule: say that's not very kind when user insults bot
+  steps:
+    intent: insult_bot
+    action: utter_not_very_kind
