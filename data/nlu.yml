@@ -334,3 +334,11 @@ nlu:
     - Was weißt du über die Leonie?
     - Sagt dir Leonie etwas?
     - Was ist Leonie?
+
+- intent: better_than_leonie
+  examples: |
+    - Leonie ist besser als du
+    - Du bist besser als Leonie
+    - Leonie ist besser
+    - Leonie ist schlauer als du
+    - Leonie ist viel schlauer als du

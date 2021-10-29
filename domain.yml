@@ -91,6 +91,8 @@ responses:
   - text: Ich habe Sie leider nicht verstanden. Könnten Sie Ihre Frage umformulieren?
   utter_leonie:
   - text: Leonie ist meine ältere Schwester und ist der virtuelle Avatar der HTL Leonding.
+  utter_leonie_and_me:
+    - text: Ich und meine Schweser sind beide besonders auf unsre eigene Art.
 actions:
 - action_hours_per_branch
 - action_room_info
