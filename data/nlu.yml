@@ -146,7 +146,7 @@ nlu:
     - ich denke nicht
     - sicher nicht
     - du spinnst doch
-- intent: name
+- intent: tell_name
   examples: |
     - Mein name ist [Felix](name)
     - ich bin [Lukas](name)
@@ -222,7 +222,7 @@ nlu:
     - bist du ein Chatbot?
     - rede ich mit einem Roboter?
     - rede ich mit einem Menschen?
-- intent: htl
+- intent: ask_htl_general
   examples: |
     - Was ist die HTL Leonding?
     - HTL Leonding?
@@ -232,7 +232,7 @@ nlu:
     - htl yo
     - Htl infos
     - Erzähl mir etwas über die HTL Leonding
-- intent: branches
+- intent: ask_branches
   examples: |
     - Welche Zweige gibt es?
     - Zweige?
@@ -249,7 +249,7 @@ nlu:
     - welche ha
     - htl zweige
     - Welche zweige
-- intent: branch
+- intent: ask_specific_branch
   examples: |
     - [Medientechnik](branch)?
     - [Informatik](branch)

@@ -26,26 +26,26 @@ stories:
   - action: utter_goodbye
 - story: name
   steps:
-  - intent: name
+  - intent: tell_name
   - action: action_log_in
   - action: utter_greet
 - story: branch
   steps:
-  - intent: htl
+  - intent: ask_htl_general
   - action: utter_htl
-  - intent: branches
+  - intent: ask_branches
   - action: utter_branches
-  - intent: branch
+  - intent: ask_specific_branch
   - action: action_utter_branch
 - story: ask for a branch
   steps:
-  - intent: branch
+  - intent: ask_specific_branch
   - action: action_utter_branch
 - story: ask for branches
   steps:
-  - intent: branches
+  - intent: ask_branches
   - action: utter_branches
-  - intent: branch
+  - intent: ask_specific_branch
   - action: action_utter_branch
 - story: rephrase
   steps:
@@ -54,9 +54,9 @@ stories:
 - story: Story from Conversation ID ccc3836ad30640dba21bb220d28ccf0c
   steps:
   - action: action_utter_branch
-  - intent: branches
+  - intent: ask_branches
   - action: utter_branches
-  - intent: branch
+  - intent: ask_specific_branch
     entities:
     - branch: medientechnik
   - action: action_utter_branch

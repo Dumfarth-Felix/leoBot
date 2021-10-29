@@ -10,16 +10,17 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
-- name
-- htl
-- branches
-- branch
+- tell_name
+- ask_htl_general
+- ask_branches
+- ask_specific_branch
 - ask_hours_per_branch
 - ask_consultation
 - ask_room
 - ask_specific_hours
 - nlu_fallback
 - ask_leonie
+- better_than_leonie
 entities:
 - name
 - branch
