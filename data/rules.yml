@@ -21,3 +21,8 @@ rules:
   steps:
     - intent: better_than_leonie
     - action: utter_leonie_and_me
+
+- rule: say no problem when the user thanks the bot
+  steps:
+    - intent: thanks
+    - action: utter_no_problem

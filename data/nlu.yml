@@ -342,3 +342,19 @@ nlu:
     - Leonie ist besser
     - Leonie ist schlauer als du
     - Leonie ist viel schlauer als du
+
+- intent: thanks
+  examples: |
+    - danke
+    - thx
+    - Vielen dank
+    - okay, danke
+    - du warst eine große Hilfe
+
+- intent: how_are_you
+  examples: |
+    - Wie geht es dir?
+    - Wie fühlst du dich?
+    - Wie gehts, wie stehts.
+    - Wie gehts so?
+    - Wie gehts?
