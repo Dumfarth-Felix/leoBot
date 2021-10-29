@@ -334,7 +334,6 @@ nlu:
     - Was weißt du über die Leonie?
     - Sagt dir Leonie etwas?
     - Was ist Leonie?
-
 - intent: better_than_leonie
   examples: |
     - Leonie ist besser als du
@@ -342,7 +341,6 @@ nlu:
     - Leonie ist besser
     - Leonie ist schlauer als du
     - Leonie ist viel schlauer als du
-
 - intent: thanks
   examples: |
     - danke
@@ -350,7 +348,6 @@ nlu:
     - Vielen dank
     - okay, danke
     - du warst eine große Hilfe
-
 - intent: how_are_you
   examples: |
     - Wie geht es dir?
@@ -358,7 +355,7 @@ nlu:
     - Wie gehts, wie stehts.
     - Wie gehts so?
     - Wie gehts?
-
+    - mir gehts gut und dir
 - intent: show_school_picture
   examples: |
     - Wie sieht die HTL aus?
@@ -367,11 +364,3 @@ nlu:
     - Zeig mir ein Foto der HTL Leonding?
     - Ich würde die HTL Leonding gerne sehen?
     - Wie sieht die HTL Leonding den so aus?
-
-- intent: insult_bot
-  examples: |
-    - Idiot
-    - Depp
-    - Trottel
-    - Dummkopf
-    - Arschloch
