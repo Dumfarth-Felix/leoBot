@@ -97,7 +97,7 @@ responses:
   utter_leonie:
   - text: Leonie ist meine ältere Schwester und ist der virtuelle Avatar der HTL Leonding.
   utter_leonie_and_me:
-    - text: Ich und meine Schweser sind beide besonders auf unsre eigene Art.
+    - text: Ich und meine Schweser sind beide besonders auf unsre eigene Art!
   utter_no_problem:
     - text: Kein Problem, dafür bin ich doch da!
   utter_i_am_doing_well:
